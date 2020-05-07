@@ -1,0 +1,152 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Flower Shop</title>
+<link rel="stylesheet" type="text/css" href="style.css" />
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+   <script src="js/validator.js"></script>
+</head>
+<body>
+<div id="wrap">
+
+       <div class="header">
+       		<div class="logo"><a href="index.html"><img src="images/logo.gif" alt="" title="" border="0" /></a></div>            
+        <div id="menu">
+            <ul>                                                                       
+            <li><a href="index.html">Домой</a></li>
+            <li><a href="about.html">О нас</a></li>
+            <li><a href="category.html">Цветы</a></li>
+            <li><a href="specials.html">Подарки</a></li>
+            <li class="selected"><a href="register.html">Заявка</a></li>
+            <li><a href="contact.html">Контакт</a></li>
+            </ul>
+        </div>     
+            
+            
+       </div> 
+       
+       
+       <div class="center_content">
+       	<div class="left_content">
+            <div class="title"><span class="title_icon"><img src="images/bullet1.gif" alt="" title="" /></span>Оставить заявку</div>
+        
+        	<div class="feat_prod_box_details">
+            <p class="details">
+             
+            </p>
+            
+              	<div class="contact_form">
+                <div class="form_subtitle">Создайте заявку на доставку</div>
+                 <form name="register" action="thanks.html" method="post" validate>      
+
+                    <div class="form_row">
+                    <label class="contact"><strong>Имя:</strong></label>
+                    <input  class="contact_input" data-validate-length-range="6" name="name" placeholder="Имя" required="required" type="text" />
+                    </div>  
+
+
+
+                    <div class="form_row">
+                    <label class="contact"><strong>Email:</strong></label>
+                    <input type="text" class="contact_input" input class='email' name="email"placeholder="Email" required="required" type="email"/>
+                    </div>
+
+
+                    <div class="form_row">
+                    <label class="contact"><strong>Телефон:</strong></label>
+                    <input type="text" class="contact_input" data-validate-length-range="10" name="name" placeholder="Номер телефона" required="required" type="text" />
+                    </div>
+                    
+                    <div class="form_row">
+                    <label class="contact"><strong>Адрес доставки:</strong></label>
+                    <input type="text" class="contact_input" data-validate-length-range="6" name="name" placeholder="Адрес" required="required" type="text" />
+                    </div>
+                                     
+
+                    <div class="form_row">
+                        <div class="terms">
+                        <input type="checkbox" name="terms" />
+                        Я согласен на обработку данных                        </div>
+                    </div> 
+
+                    
+                    <div class="form_row">
+                    <input type="submit" class="register" value="Отправить" input class="button-register" id='send' type= "submit" action="javascript:void(null);" />
+                    </div>   
+                  </form>     
+                </div>  
+            
+          </div>	
+            
+              
+
+            
+
+            
+        <div class="clear"></div>
+        </div><!--end of left content-->
+        
+        <div class="right_content">
+        
+                	
+                
+                
+                
+              <div class="cart">
+                  <div class="title"><span class="title_icon"><img src="images/cart.gif" alt="" title="" /></span>Корзина</div>
+                  <div class="home_cart_content">
+                  3 | <span class="red">Итого: 4800 руб.</span>
+                  </div>
+                  <a href="cart.html" class="view_cart">Посмотреть</a>
+              
+              </div>
+        
+             <div class="title"><span class="title_icon"><img src="images/bullet3.gif" alt="" title="" /></span>О нашем магазине</div> 
+             <div class="about">
+             <p>
+             <img src="images/about.gif" alt="" title="" class="right" />
+             "Аленький цветочек"— это всегда высокое качество обслуживания клиентов и свежие композиции. Мир флористики постоянно вносит коррективы и новые тенденции.
+
+             Специалисты нашего интернет-магазина следят за новинками в данной области, поэтому предлагаемые букеты всегда привлекательны и современны. Они способны выразить Ваши самые сокровенные чувства и эмоции... <br>ТЕЛЕФОН:
+
+             8 (843) 224-65-42
+             </p>
+             
+             </div>
+             
+             <div class="right_box">
+             
+             	
+                 
+             </div>
+             
+             
+             
+        
+        </div><!--end of right content-->
+        
+        
+       
+       
+       <div class="clear"></div>
+       </div><!--end of center content-->
+       
+              
+       <div class="footer">
+       	<div class="left_footer"><img src="images/footer_logo.gif" alt="" title="" /><br /> </div>
+        <div class="right_footer">
+            <a href="index.html">Домой</a>
+            <a href="about.html">О нас</a>
+            <a href="contact.html">Наши контакты</a>
+       
+        </div>
+        
+       
+       </div>
+    
+
+</div>
+
+</body>
+</html>
